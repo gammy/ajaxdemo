@@ -1,4 +1,5 @@
 // Requires jQuery to call the simplified AJAX method ($.ajax)
+// and to create the click binding
 
 function handleBeforeSend(XMLHttpRequest, textStatus, errorThrown) {
 	console.log("In handleBeforeSend");
